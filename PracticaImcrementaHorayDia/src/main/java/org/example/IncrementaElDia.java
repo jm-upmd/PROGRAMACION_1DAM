@@ -22,7 +22,7 @@ public class IncrementaElDia {
             case 2 -> (dia <1 || dia > 28) ? 0 : 28;
             case 3, 1, 5, 7, 8, 10, 12 -> (dia < 1 || dia > 31) ? 0:31;
             default -> {
-                System.out.println("El mes introducido está fuera de rango");
+                System.out.println("El mes o día introducido está fuera de rango");
                 yield 0;
             }
         };
